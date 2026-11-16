@@ -1,0 +1,10 @@
+[project]
+name = "fraud-risk-engine"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.138.0,<1.0"
+]
+
+[tool.vercel]
+entrypoint = "backend.main:app"
